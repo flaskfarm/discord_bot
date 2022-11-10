@@ -12,7 +12,6 @@ setting = {
                 'name': '메인',
                 'list': [
                     {'uri': 'setting', 'name': '설정'},
-                    {'uri': 'status', 'name': '상태'},
                 ]
             },
             {
