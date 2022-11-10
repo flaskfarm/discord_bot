@@ -15,7 +15,6 @@ class ModuleBasic(PluginModuleBase):
             f'{self.name}_bot_token' : '',
         }
         self.process = None
-        default_route_socketio_module(self, attach='/status')
 
 
     def process_menu(self, sub, req):
