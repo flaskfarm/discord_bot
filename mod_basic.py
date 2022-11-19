@@ -101,10 +101,11 @@ class ModuleBasic(PluginModuleBase):
                 return
             if target_page_name != None:
                 target_page_ins = target_module_ins.get_page(target_page_name)
+                #P.logger.error(target_page_ins)
                 if target_page_ins != None:
                     target_page_ins.process_discord_data(data)
-            else:
-                target_module_ins.process_discord_data(data)
+                    return
+            target_module_ins.process_discord_data(data)
         except Exception as e:
             P.logger.error(f'Exception:{str(e)}')
             P.logger.error(traceback.format_exc())
