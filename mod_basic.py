@@ -76,6 +76,7 @@ class ModuleBasic(PluginModuleBase):
     
     def process_ff(self, data):
         try:
+            data['msg'] = data['msg'].strip('`')
             if data['msg'].startswith('^') == False:
                 return
             from support import SupportAES
