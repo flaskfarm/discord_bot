@@ -28,7 +28,7 @@ class DiscordClient(discord.Client):
         #    return
         if message.guild == None:
             await self.process_message('DM', message)
-        elif message.guild.name == 'FlaskFarm' and message.channel.name.startswith('bot'):
+        elif message.guild.name == 'FlaskFarmBot' and message.channel.name.startswith('bot'):
             await self.process_message('FF', message)
         
 
