@@ -11,7 +11,7 @@ class DiscordClient(discord.Client):
     async def on_ready(self):
         is_include = False
         for guild in self.guilds:
-            if guild.name == 'FlaskFarm':
+            if guild.name == 'FlaskFarmBot':
                 is_include = True
                 break
         entity = {
