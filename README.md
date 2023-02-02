@@ -10,7 +10,7 @@
 
     <img src="https://cdn.discordapp.com/attachments/973582802102648882/1039535838977064960/unknown.png" width="50%" />
   
-  - [https://discord.gg/SdCXFGMUjC](https://discord.gg/SdCXFGMUjC)  
+  - [https://discord.gg/Pxj9647UpR](https://discord.gg/Pxj9647UpR)  
     FlaskFarmBot 디스코드 방 입장  
   - 봇 초대코드 생성  
 
